@@ -1,0 +1,20 @@
+body {
+    margin: 40px;
+    padding: 0 10px;
+    font: 1.5em/1.5 "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+h1,h2,h3 {
+    font-weight: 800;
+    background: -webkit-linear-gradient(45deg, #fa17ae, #143f9b 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #0d1117
+    }
+}
